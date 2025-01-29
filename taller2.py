@@ -8,3 +8,6 @@ vals = np.random.normal(loc=mu, scale=sigma, size=n)
 print(vals)
 
 df = pd.DataFrame(vals)
+
+#Estadisticas Descriptivas
+print(df.describe())
