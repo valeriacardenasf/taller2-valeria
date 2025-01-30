@@ -11,3 +11,5 @@ df = pd.DataFrame(vals)
 
 #Estadisticas Descriptivas
 print(df.describe())
+
+print(df.head())
