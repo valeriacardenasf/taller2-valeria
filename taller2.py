@@ -13,3 +13,10 @@ df = pd.DataFrame(vals)
 print(df.describe())
 
 print(df.head())
+
+#Generar números aleatorios con una distribución exponencial
+
+mu = 3
+vals_nuevos = np.random.exponential(scale=mu, size=n)
+
+df = pd.DataFrame(vals_nuevos)
